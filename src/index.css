@@ -1,0 +1,33 @@
+.title {
+  text-align: center;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.guests {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1500px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 1rem 0;
+}
+
+.guests li {
+  flex: 1;
+  text-align: center;
+  
+}
+
+.guests:hover {
+  background-color: #f0f0f0; 
+}
+
+
+.info {
+  text-align: center;
+}
